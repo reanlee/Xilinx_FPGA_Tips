@@ -1,0 +1,18 @@
+Vivado doesn't officially provide a mux IP, but you can use an Adder/Subtracter IP with the following configuration:
+
+    Basic:
+        Implement using: Fabric
+        A/B input type: unsigned  (must be unsigned if you want 1-bit inputs; otherwise it doesn't matter)
+        A/B input width: the width of your signal
+        Output width: the width of your signal
+        Latency: 0
+        Constant input: yes
+        Constant value: all zeros  (default)
+    Control:
+        Clock enable: no
+        Bypass: yes
+        Bypass sense: active high (select A when BYPASS is 0, B when BYPASS is 1) or active low (select A when BYPASS is 1, B when BYPASS is 0)
+
+This generates an adder that outputs the result of adding A and a constant value of 0 (i.e. always A), and which optionally bypasses this output with the value of B when the BYPASS input is asserted.  This is functionally equivalent to a multiplexer.  However, it seems that this is synthesized using CarryLogic resources as if it were an actual adder.
+
+source: https://support.xilinx.com/s/question/0D52E00006iHkxSSAS/utility-io-multiplexer-in-vivado?language=en_US
