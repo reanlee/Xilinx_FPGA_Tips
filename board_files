@@ -1,0 +1,10 @@
+The xilinx board files repository is below:
+https://github.com/Xilinx/XilinxBoardStore
+
+after Vivado 2020.1, you can download board files from tool -> Xhub Stores...
+
+K26/Kx260 can be used only in Vivado 2020.2.2 or later.
+https://support.xilinx.com/s/question/0D52E00006hpruiSAA/k26k260-with-vivado-20201?language=en_US
+
+Here is the K26 related board files download information.
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1641152513/Kria+K26+SOM#Vivado-Board-Support-Packages
