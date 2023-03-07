@@ -1,0 +1,8 @@
+[BD 41-237] Bus Interface property FREQ_HZ does not match between...
+
+The answer in official forum usuelly want you to edit the FREQ_HZ of the port, but in my experience that's bullshit, never success.
+
+Solutions below may work:
+1. check clock between master and slave port, make sure they are in the same clock domain.
+2. delete your IP, add and connect them again.
+3. if the clock is from your custom IP, connect to a BUFG(Utility Buffer) first then other IPs.
