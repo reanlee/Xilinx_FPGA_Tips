@@ -1,0 +1,2 @@
+An Attempt to Install PYNQ on Ubuntu for ZCU102
+https://discuss.pynq.io/t/an-attempt-to-install-pynq-on-ubuntu-for-zcu102/3809
