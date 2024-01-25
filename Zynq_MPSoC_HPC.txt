@@ -1,0 +1,2 @@
+The HPC ports use CCI (cache coherent interconnect), let MCU can access correct data from DMA.
+1. in block design use "AXI Interconnect" instead of "SMARTCONNECT" to the data through HPC ports.
