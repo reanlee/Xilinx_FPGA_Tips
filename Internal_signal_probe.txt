@@ -1,0 +1,5 @@
+Add an output port for debug purposes after implementation.
+
+Using the Vivado ECO flow, it is very easy to make any internal signal external by connecting it to any free device pin.
+
+https://support.xilinx.com/s/article/53266?language=en_US
