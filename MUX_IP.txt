@@ -18,4 +18,4 @@ This generates an adder that outputs the result of adding A and a constant value
 
 source: https://support.xilinx.com/s/question/0D52E00006iHkxSSAS/utility-io-multiplexer-in-vivado?language=en_US
 
-** USE AND, OR nad NOT Utility Buffer to assemble MUX function **
+** USE AND, OR and NOT Utility Buffer to assemble MUX function **
