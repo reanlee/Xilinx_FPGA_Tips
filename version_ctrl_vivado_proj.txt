@@ -1,2 +1,4 @@
 link as below
 https://www.fpgadeveloper.com/2014/08/version-control-for-vivado-projects.html/
+
+If get empty file after writing tcl, save the project as another one then tcl file will be corrected.
